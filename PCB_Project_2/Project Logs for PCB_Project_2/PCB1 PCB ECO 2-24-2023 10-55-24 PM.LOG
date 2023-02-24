@@ -1,0 +1,116 @@
+Added Component: Designator=C1(CN1)
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=P1(DOMINO 2- 5mm)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=U1(Bluepill)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connectivity"; Value = "CANbus, I²C, IrDA, LINbus, SPI, UART/USART, USB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Processor"; Value = "ARM® Cortex®-M3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Size"; Value = "32-Bit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of I/O"; Value = "37"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packgae/Case"; Value = "LQFP-48"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peripherals"; Value = "DMA, Motor Control PWM, PDR, POR, PVD, PWM, Temp Sensor, WDT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "ARM Microcontrollers - MCU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Program Memory Size"; Value = "64KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Program Memory Type"; Value = "FLASH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RAM Size"; Value = "24KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "STM32F103C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Speed"; Value = "74MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "2V ~ 3.6V"; VariantName = "[No Variations]"
+Added Component: Designator=U2(DS3231)
+Added Component: Designator=U3(Rotary Encoder)
+Added Component: Designator=U4(DH11)
+Added Component: Designator=U5(LCD2004)
+Add component (AddParameter): Name = "Backlight"; Value = "LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Character Format"; Value = "5 x 8 Dots"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Character Size"; Value = "4.75mm H x 2.95mm W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.com/en/products/detail/az-displays/ACM2004G-NLW-BTW/13426757"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Display Format"; Value = "20 x 4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Display Mode"; Value = "Transmissive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Display Type"; Value = "STN - Super-Twisted Nematic, TN - Twisted Nematic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dot Size"; Value = "0.55mm W x 0.55mm H"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AZ Display"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-20°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Outline L x W x H"; Value = "98.00mm x 60.00mm x 14.00mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Area"; Value = "76.00mm L x 25.20mm W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "2.7V ~ 5.5V"; VariantName = "[No Variations]"
+Added Component: Designator=VR1(Varistor 1)
+Add component (AddParameter): Name = "Value"; Value = "VR 10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=U1-20
+Added Pin To Net: NetName=3V3 Pin=U1-38
+Added Pin To Net: NetName=3V3 Pin=U3-4
+Added Net: Name=3V3
+Added Pin To Net: NetName=5V Pin=C1-2
+Added Pin To Net: NetName=5V Pin=P1-2
+Added Pin To Net: NetName=5V Pin=U1-18
+Added Pin To Net: NetName=5V Pin=U2-5
+Added Pin To Net: NetName=5V Pin=U4-1
+Added Pin To Net: NetName=5V Pin=U5-2
+Added Pin To Net: NetName=5V Pin=U5-15
+Added Pin To Net: NetName=5V Pin=VR1-1
+Added Net: Name=5V
+Added Pin To Net: NetName=CLK Pin=U1-11
+Added Pin To Net: NetName=CLK Pin=U3-1
+Added Net: Name=CLK
+Added Pin To Net: NetName=DB4 Pin=U1-5
+Added Pin To Net: NetName=DB4 Pin=U5-11
+Added Net: Name=DB4
+Added Pin To Net: NetName=DB5 Pin=U1-6
+Added Pin To Net: NetName=DB5 Pin=U5-12
+Added Net: Name=DB5
+Added Pin To Net: NetName=DB6 Pin=U1-7
+Added Pin To Net: NetName=DB6 Pin=U5-13
+Added Net: Name=DB6
+Added Pin To Net: NetName=DB7 Pin=U1-8
+Added Pin To Net: NetName=DB7 Pin=U5-14
+Added Net: Name=DB7
+Added Pin To Net: NetName=DHT_PIN Pin=U1-25
+Added Pin To Net: NetName=DHT_PIN Pin=U4-2
+Added Net: Name=DHT_PIN
+Added Pin To Net: NetName=DT Pin=U1-12
+Added Pin To Net: NetName=DT Pin=U3-2
+Added Net: Name=DT
+Added Pin To Net: NetName=E Pin=U1-3
+Added Pin To Net: NetName=E Pin=U5-6
+Added Net: Name=E
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-39
+Added Pin To Net: NetName=GND Pin=U1-40
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-16
+Added Pin To Net: NetName=GND Pin=VR1-3
+Added Net: Name=GND
+Added Pin To Net: NetName=NetU5_3 Pin=U5-3
+Added Pin To Net: NetName=NetU5_3 Pin=VR1-2
+Added Net: Name=NetU5_3
+Added Pin To Net: NetName=R/W Pin=U1-2
+Added Pin To Net: NetName=R/W Pin=U5-5
+Added Net: Name=R/W
+Added Pin To Net: NetName=RS Pin=U1-1
+Added Pin To Net: NetName=RS Pin=U5-4
+Added Net: Name=RS
+Added Pin To Net: NetName=SCL Pin=U1-35
+Added Pin To Net: NetName=SCL Pin=U2-3
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=U1-36
+Added Pin To Net: NetName=SDA Pin=U2-4
+Added Net: Name=SDA
+Added Pin To Net: NetName=SW Pin=U1-13
+Added Pin To Net: NetName=SW Pin=U3-3
+Added Net: Name=SW
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

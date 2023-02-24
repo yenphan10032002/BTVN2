@@ -1,0 +1,19 @@
+Added Component: Designator=U2(DS3231)
+Added Component: Designator=U3(Rotary Encoder)
+Added Component: Designator=U4(DH11)
+Added Pin To Net: NetName=SCL Pin=U2-3
+Added Pin To Net: NetName=SDA Pin=U2-4
+Added Pin To Net: NetName=5V Pin=U2-5
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=CLK Pin=U3-1
+Added Pin To Net: NetName=DT Pin=U3-2
+Added Pin To Net: NetName=SW Pin=U3-3
+Added Pin To Net: NetName=3V3 Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=5V Pin=U4-1
+Added Pin To Net: NetName=DHT_PIN Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Member To Class: ClassName=Sheet1 Member=Component U2 DS3231
+Added Member To Class: ClassName=Sheet1 Member=Component U3 Rotary encoder
+Added Member To Class: ClassName=Sheet1 Member=Component U4 DHT11
+Added Room: Name=Sheet1
